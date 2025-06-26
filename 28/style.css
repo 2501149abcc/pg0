@@ -1,0 +1,486 @@
+html{
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed; 
+    background-image: url("https://photock.jp/photo/big_webp/photo0000-0707.webp") ; 
+}
+
+
+.nav{
+    background-color: rgba(239, 239, 239, 0.589);
+    color: black;
+    padding: 10px;
+    width: 100%;
+    justify-content: flex-start;
+}
+.nav ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0%;
+    display: flex;
+}
+li{
+    margin-right: 15px;
+}
+.nav a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+.nav a:hover{
+    background-color: rgba(127, 255, 212, 0.525);
+}                                   /*nav end*/
+
+/* プロフィール*/
+.home{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    gap: 12px; 
+    padding: 16px;
+}
+.homep{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home img{
+    height: 300px;
+    width: 400px;
+    display: block;
+}
+.homeclass{
+    background-color: rgba(231, 231, 231, 0.452);
+    font-size: 30px;
+    margin-left: 25px;
+}
+.homeclass{
+  animation-duration: 2s;
+  animation-name: slidein;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 110%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 30%;
+    width: 100%;
+  }
+}
+
+.homeDepartment{
+    background-color: rgba(231, 231, 231, 0.452);
+    font-size: 30px;
+    margin-left: 25px;
+}
+.homeDepartment{
+  animation-duration: 2.5s;
+  animation-name: slidein;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 60%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 30%;
+    width: 100%;
+  }
+}
+
+.homename{
+    background-color: rgba(231, 231, 231, 0.452);
+    font-size: 30px;
+    margin-left: 25px;
+}
+.homename{
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 60%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 30%;
+    width: 100%;
+  }
+}
+.homebottom{
+    background-color: rgb(216, 216, 216);
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0%;
+    margin-top: 20px;
+    margin-bottom: 0%;
+}
+
+.hobbyhead{
+    background-color: rgba(77, 172, 50, 0.874);
+    font-size: 27px;
+    width: 100%;
+    padding: 10px;
+}
+
+.valodiv{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    gap: 12px; 
+    padding: 16px;
+}
+.valop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.valoimg{
+    display: block;
+    height: 270px;
+    width: 270px;
+    margin-left: 50px;
+}
+.valop{
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: rgba(243, 61, 61, 0.6);
+}
+.valoemphasis{
+    padding: 2px;
+    background-color: rgba(0, 255, 255, 0.441);
+}
+.st6div{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    gap: 12px; 
+    padding: 16px;
+}
+.st6img{
+    display: block;
+    height: 270px;
+    width: 270px;
+    margin-left: 50px;
+}
+.st6p{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(50, 50, 241, 0.532);
+}
+.st6emphasis{
+    padding: 2px;
+    background-color: rgba(236, 4, 4, 0.578);
+}
+.ow2div{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    gap: 12px; 
+    padding: 16px;
+}
+.ow2img{
+    display: block;
+    height: 270px;
+    width: 270px;
+    margin-left: 50px;
+}
+.ow2p{
+    padding: 2px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(212, 212, 212, 0.532);
+}
+.ow2emphasis{
+    padding: 2px;
+    background-color: rgba(236, 217, 4, 0.578);
+}
+.daddiv{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    gap: 12px; 
+    padding: 16px;
+}
+.dadimg{
+    display: block;
+    height: 270px;
+    width: 270px;
+    margin-left: 50px;
+}
+.dadp{
+    padding: 2px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(232, 181, 11, 0.735);
+}
+.dademphasis{
+    padding: 2px;
+    background-color: rgba(168, 168, 168, 0.578);
+}
+
+.foodhead{
+    background-color: rgba(79, 79, 224, 0.457);
+    font-size: 27px;
+    width: 100%;
+    padding: 10px;
+}
+
+.sobadiv{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    gap: 12px; 
+    padding: 16px;
+}
+.sobaimg{
+    display: block;
+    height: 250px;
+    width: 360px;
+    margin-left: 50px;
+}
+.sobap{
+    padding: 2px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(235, 211, 135, 0.667);
+}
+.sobastr{
+    padding: 2px;
+    background-color: rgba(168, 168, 168, 0.578);
+}
+.gyouzadiv{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    gap: 12px; 
+    padding: 16px;
+}
+.gyouzaimg{
+    display: block;
+    height: 250px;
+    width: 360px;
+    margin-left: 50px;
+}
+.gyouzap{
+    padding: 2px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(114, 243, 176, 0.667);
+}
+.gyouzastr{
+    padding: 2px;
+    background-color: rgba(197, 94, 94, 0.578);
+}
+.danbodiv{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    gap: 12px; 
+    padding: 16px;
+}
+.danboimg{
+    display: block;
+    height: 250px;
+    width: 260px;
+    margin-left: 50px;
+}
+.danbop{
+    padding: 2px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(230, 19, 19, 0.667);
+}
+.danbostr{
+    padding: 2px;
+    background-color: #ece7e793;
+}
+/*ここら辺で同じ物は一か所にまとめることに気づきました*/
+
+.musicdiv{
+    text-align: center;
+    justify-content: space-around;
+}
+.musicdiv img{
+    height: 200px;
+    width: 200px;
+    margin: 60px;
+}
+
+.homeuse a,
+.hobbyuse a,
+.fooduse a,
+.musicuse a,
+.jumpuse a,
+.homeuse a:visited,
+.hobbyuse a:visited,
+.fooduse a:visited,
+.musicuse a:visited
+.jumpuse a:visited,
+.animeuse a:visited{
+  color: white;
+  text-decoration: none;
+}
+
+.homeuse a:hover,
+.hobbyuse a:hover,
+.fooduse a:hover,
+.musicuse a:hover,
+.animeuse a:hover, 
+.jumpuse a:hover{
+  color: white;
+  text-decoration: underline;
+}
+.homeuse,
+.hobbyuse,
+.fooduse,
+.musicuse,
+.animeuse,
+.jumpuse{
+    background-color: rgba(0, 168, 168, 0.619);
+    margin-bottom: 20px;
+    width: 35%;
+    margin-left: 10%;
+    padding-bottom: 10px;
+}
+.homeuse h2,
+.hobbyuse h2,
+.fooduse h2,
+.musicuse h2,
+.animeuse h2,
+.jumpuse h2
+{
+    background-color: #d8008c93;
+    width: 72%;
+}
+li {
+  margin-bottom: 5px; 
+}
+.animejojo,
+.animegumdam,
+.animeredline{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    gap: 12px; 
+    padding: 16px;
+}
+.jojoimg{
+    display: block;
+    height: 250px;
+    width: 250px;
+    margin-left: 50px;    
+}
+.gumdamimg{
+    display: block;
+    height: 250px;
+    width: 200px;
+    margin-left: 50px;    
+}
+.redlineimg{
+    display: block;
+    height: 250px;
+    width: 380px;
+    margin-left: 50px;
+}
+.jojop{
+    padding: 2px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(212, 227, 53, 0.667);
+}
+.gumdamp{
+    padding: 2px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(120, 100, 211, 0.667);
+}
+.redlinep{
+    padding: 2px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(230, 19, 19, 0.667);
+}
+.mad,
+.monokuro{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    gap: 12px; 
+    padding: 16px;
+}
+.madimg{
+    display: block;
+    height: 250px;
+    width: 250px;
+    margin-left: 50px;  
+}
+.monokuroimg{
+    display: block;
+    height: 250px;
+    width: 250px;
+    margin-left: 50px;  
+}
+.madp{
+    padding: 2px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(168, 19, 19, 0.667);
+}
+.monokurop{
+    padding: 2px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(225, 236, 66, 0.667);
+}
+.janpp{
+    background-color: #bd79a7a4;
+    font-size: 25px;
+}
+.animep{
+    background-color: #577d9ca5;
+    font-size: 25px;
+}
